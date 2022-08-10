@@ -1,0 +1,990 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A6C9BAB27F5D62F004CB9B8 /* huahai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A6C9BAA27F5D62F004CB9B8 /* huahai.mp3 */; };
+		4AAB412127EB7F3B006DEFA6 /* bannerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB412027EB7F3B006DEFA6 /* bannerCollectionViewCell.m */; };
+		4AAB412527ECCF05006DEFA6 /* subFunctionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB412427ECCF05006DEFA6 /* subFunctionCollectionViewCell.m */; };
+		4AAB412D27EF762D006DEFA6 /* carefullyChosenSongListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB412C27EF762D006DEFA6 /* carefullyChosenSongListCollectionViewCell.m */; };
+		4AAB413027EF7838006DEFA6 /* carefullyChosenSongListTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB412F27EF7838006DEFA6 /* carefullyChosenSongListTitleView.m */; };
+		4AAB413327EF7AE5006DEFA6 /* subSubCarefullyChosenSongListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB413227EF7AE5006DEFA6 /* subSubCarefullyChosenSongListCollectionViewCell.m */; };
+		4AAB413627F0C860006DEFA6 /* jingXuanSongListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB413527F0C860006DEFA6 /* jingXuanSongListCollectionViewCell.m */; };
+		4AAB413A27F19393006DEFA6 /* miniBarVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB413927F19393006DEFA6 /* miniBarVCViewController.m */; };
+		4AAB413E27F1CF1C006DEFA6 /* recommendedSongListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB413D27F1CF1C006DEFA6 /* recommendedSongListCollectionViewCell.m */; };
+		4AAB414127F1CF63006DEFA6 /* recommendedSongListTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB414027F1CF63006DEFA6 /* recommendedSongListTitleView.m */; };
+		4AAB414427F1CF97006DEFA6 /* subRecommendedSongListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB414327F1CF97006DEFA6 /* subRecommendedSongListCollectionViewCell.m */; };
+		4AAB414627F1F4D2006DEFA6 /* home.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AAB414527F1F4D2006DEFA6 /* home.json */; };
+		4AAB414C27F1F586006DEFA6 /* discoveryPageSongListCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB414B27F1F586006DEFA6 /* discoveryPageSongListCellModel.m */; };
+		4AAB414E27F21A4E006DEFA6 /* home .geojson in Resources */ = {isa = PBXBuildFile; fileRef = 4AAB414D27F21A4E006DEFA6 /* home .geojson */; };
+		4AAB415127F2F114006DEFA6 /* helpDownLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB415027F2F114006DEFA6 /* helpDownLoad.m */; };
+		4AAB415527F368F1006DEFA6 /* radarSongListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB415427F368F1006DEFA6 /* radarSongListCollectionViewCell.m */; };
+		4AAB415827F36961006DEFA6 /* radarSongListTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB415727F36961006DEFA6 /* radarSongListTitleView.m */; };
+		4AAB415B27F3698C006DEFA6 /* subRadarSongListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB415A27F3698C006DEFA6 /* subRadarSongListCollectionViewCell.m */; };
+		4AAB415F27F3F05D006DEFA6 /* exclusiveSceneSongListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB415E27F3F05D006DEFA6 /* exclusiveSceneSongListCollectionViewCell.m */; };
+		4AAB416227F3F076006DEFA6 /* subExclusiveSceneSongListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB416127F3F076006DEFA6 /* subExclusiveSceneSongListCollectionViewCell.m */; };
+		4AAB416527F3F0A2006DEFA6 /* exclusiveSceneSongListTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB416427F3F0A2006DEFA6 /* exclusiveSceneSongListTitleView.m */; };
+		4AAB416927F3F7C0006DEFA6 /* bannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB416827F3F7C0006DEFA6 /* bannerModel.m */; };
+		4AAB416C27F3FB2F006DEFA6 /* subBannerCollectionViewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB416B27F3FB2F006DEFA6 /* subBannerCollectionViewCollectionViewCell.m */; };
+		4AAB417027F40642006DEFA6 /* songListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB416F27F40642006DEFA6 /* songListViewController.m */; };
+		4AAB417327F40EE3006DEFA6 /* transViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB417227F40EE3006DEFA6 /* transViewController.m */; };
+		4AAB417A27F47AB5006DEFA6 /* songList.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 4AAB417927F47AB5006DEFA6 /* songList.geojson */; };
+		4AAB417E27F487A9006DEFA6 /* songListCoverCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB417D27F487A9006DEFA6 /* songListCoverCollectionViewCell.m */; };
+		4AAB418227F487DB006DEFA6 /* songListSongCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB418127F487DB006DEFA6 /* songListSongCollectionViewCell.m */; };
+		4AAB418627F4BF13006DEFA6 /* playAllCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB418527F4BF13006DEFA6 /* playAllCollectionViewCell.m */; };
+		4AAB418A27F55DCD006DEFA6 /* songCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB418927F55DCD006DEFA6 /* songCellModel.m */; };
+		4AAB418D27F5876E006DEFA6 /* songPlayTransVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB418C27F5876E006DEFA6 /* songPlayTransVC.m */; };
+		4AAB419127F587F9006DEFA6 /* songPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB419027F587F9006DEFA6 /* songPlayViewController.m */; };
+		4AB4D2B227E0F9620059C3D0 /* discoveryPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB4D2B127E0F9620059C3D0 /* discoveryPageViewController.m */; };
+		4AB4D2B527E376CB0059C3D0 /* searchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB4D2B427E376CB0059C3D0 /* searchViewController.m */; };
+		4AB4D2D527EA30100059C3D0 /* functionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB4D2D427EA30100059C3D0 /* functionCollectionViewCell.m */; };
+		4ABDE15E27DF826C0073D96E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDE15D27DF826C0073D96E /* AppDelegate.m */; };
+		4ABDE16127DF826C0073D96E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDE16027DF826C0073D96E /* SceneDelegate.m */; };
+		4ABDE16427DF826C0073D96E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDE16327DF826C0073D96E /* ViewController.m */; };
+		4ABDE16727DF826C0073D96E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABDE16527DF826C0073D96E /* Main.storyboard */; };
+		4ABDE16927DF82700073D96E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABDE16827DF82700073D96E /* Assets.xcassets */; };
+		4ABDE16C27DF82700073D96E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABDE16A27DF82700073D96E /* LaunchScreen.storyboard */; };
+		4ABDE16F27DF82700073D96E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDE16E27DF82700073D96E /* main.m */; };
+		4ABDE17927DF82710073D96E /* NetEaseCloudMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDE17827DF82710073D96E /* NetEaseCloudMusicTests.m */; };
+		4ABDE18327DF82710073D96E /* NetEaseCloudMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDE18227DF82710073D96E /* NetEaseCloudMusicUITests.m */; };
+		4ABDE18527DF82710073D96E /* NetEaseCloudMusicUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDE18427DF82710073D96E /* NetEaseCloudMusicUITestsLaunchTests.m */; };
+		A970E9F50E882F3B20334311 /* libPods-NetEaseCloudMusic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB0C2B4C889AA7AEDECB070 /* libPods-NetEaseCloudMusic.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ABDE17527DF82710073D96E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ABDE15127DF826C0073D96E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ABDE15827DF826C0073D96E;
+			remoteInfo = NetEaseCloudMusic;
+		};
+		4ABDE17F27DF82710073D96E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ABDE15127DF826C0073D96E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ABDE15827DF826C0073D96E;
+			remoteInfo = NetEaseCloudMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A6C9BAA27F5D62F004CB9B8 /* huahai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = huahai.mp3; path = NetEaseCloudMusic/huahai.mp3; sourceTree = SOURCE_ROOT; };
+		4AAB411F27EB7F3B006DEFA6 /* bannerCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bannerCollectionViewCell.h; sourceTree = "<group>"; };
+		4AAB412027EB7F3B006DEFA6 /* bannerCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bannerCollectionViewCell.m; sourceTree = "<group>"; };
+		4AAB412327ECCF05006DEFA6 /* subFunctionCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subFunctionCollectionViewCell.h; sourceTree = "<group>"; };
+		4AAB412427ECCF05006DEFA6 /* subFunctionCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = subFunctionCollectionViewCell.m; sourceTree = "<group>"; };
+		4AAB412B27EF762D006DEFA6 /* carefullyChosenSongListCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = carefullyChosenSongListCollectionViewCell.h; sourceTree = "<group>"; };
+		4AAB412C27EF762D006DEFA6 /* carefullyChosenSongListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = carefullyChosenSongListCollectionViewCell.m; sourceTree = "<group>"; };
+		4AAB412E27EF7838006DEFA6 /* carefullyChosenSongListTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = carefullyChosenSongListTitleView.h; sourceTree = "<group>"; };
+		4AAB412F27EF7838006DEFA6 /* carefullyChosenSongListTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = carefullyChosenSongListTitleView.m; sourceTree = "<group>"; };
+		4AAB413127EF7AE5006DEFA6 /* subSubCarefullyChosenSongListCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subSubCarefullyChosenSongListCollectionViewCell.h; sourceTree = "<group>"; };
+		4AAB413227EF7AE5006DEFA6 /* subSubCarefullyChosenSongListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = subSubCarefullyChosenSongListCollectionViewCell.m; sourceTree = "<group>"; };
+		4AAB413427F0C860006DEFA6 /* jingXuanSongListCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jingXuanSongListCollectionViewCell.h; sourceTree = "<group>"; };
+		4AAB413527F0C860006DEFA6 /* jingXuanSongListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jingXuanSongListCollectionViewCell.m; sourceTree = "<group>"; };
+		4AAB413827F19393006DEFA6 /* miniBarVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = miniBarVCViewController.h; sourceTree = "<group>"; };
+		4AAB413927F19393006DEFA6 /* miniBarVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = miniBarVCViewController.m; sourceTree = "<group>"; };
+		4AAB413C27F1CF1C006DEFA6 /* recommendedSongListCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = recommendedSongListCollectionViewCell.h; sourceTree = "<group>"; };
+		4AAB413D27F1CF1C006DEFA6 /* recommendedSongListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = recommendedSongListCollectionViewCell.m; sourceTree = "<group>"; };
+		4AAB413F27F1CF63006DEFA6 /* recommendedSongListTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = recommendedSongListTitleView.h; sourceTree = "<group>"; };
+		4AAB414027F1CF63006DEFA6 /* recommendedSongListTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = recommendedSongListTitleView.m; sourceTree = "<group>"; };
+		4AAB414227F1CF97006DEFA6 /* subRecommendedSongListCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subRecommendedSongListCollectionViewCell.h; sourceTree = "<group>"; };
+		4AAB414327F1CF97006DEFA6 /* subRecommendedSongListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = subRecommendedSongListCollectionViewCell.m; sourceTree = "<group>"; };
+		4AAB414527F1F4D2006DEFA6 /* home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
+		4AAB414A27F1F586006DEFA6 /* discoveryPageSongListCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = discoveryPageSongListCellModel.h; sourceTree = "<group>"; };
+		4AAB414B27F1F586006DEFA6 /* discoveryPageSongListCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = discoveryPageSongListCellModel.m; sourceTree = "<group>"; };
+		4AAB414D27F21A4E006DEFA6 /* home .geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = "home .geojson"; sourceTree = "<group>"; };
+		4AAB414F27F2F114006DEFA6 /* helpDownLoad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helpDownLoad.h; sourceTree = "<group>"; };
+		4AAB415027F2F114006DEFA6 /* helpDownLoad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helpDownLoad.m; sourceTree = "<group>"; };
+		4AAB415327F368F1006DEFA6 /* radarSongListCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = radarSongListCollectionViewCell.h; sourceTree = "<group>"; };
+		4AAB415427F368F1006DEFA6 /* radarSongListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = radarSongListCollectionViewCell.m; sourceTree = "<group>"; };
+		4AAB415627F36961006DEFA6 /* radarSongListTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = radarSongListTitleView.h; sourceTree = "<group>"; };
+		4AAB415727F36961006DEFA6 /* radarSongListTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = radarSongListTitleView.m; sourceTree = "<group>"; };
+		4AAB415927F3698C006DEFA6 /* subRadarSongListCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subRadarSongListCollectionViewCell.h; sourceTree = "<group>"; };
+		4AAB415A27F3698C006DEFA6 /* subRadarSongListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = subRadarSongListCollectionViewCell.m; sourceTree = "<group>"; };
+		4AAB415D27F3F05D006DEFA6 /* exclusiveSceneSongListCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = exclusiveSceneSongListCollectionViewCell.h; sourceTree = "<group>"; };
+		4AAB415E27F3F05D006DEFA6 /* exclusiveSceneSongListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = exclusiveSceneSongListCollectionViewCell.m; sourceTree = "<group>"; };
+		4AAB416027F3F076006DEFA6 /* subExclusiveSceneSongListCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subExclusiveSceneSongListCollectionViewCell.h; sourceTree = "<group>"; };
+		4AAB416127F3F076006DEFA6 /* subExclusiveSceneSongListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = subExclusiveSceneSongListCollectionViewCell.m; sourceTree = "<group>"; };
+		4AAB416327F3F0A2006DEFA6 /* exclusiveSceneSongListTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = exclusiveSceneSongListTitleView.h; sourceTree = "<group>"; };
+		4AAB416427F3F0A2006DEFA6 /* exclusiveSceneSongListTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = exclusiveSceneSongListTitleView.m; sourceTree = "<group>"; };
+		4AAB416727F3F7C0006DEFA6 /* bannerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bannerModel.h; sourceTree = "<group>"; };
+		4AAB416827F3F7C0006DEFA6 /* bannerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bannerModel.m; sourceTree = "<group>"; };
+		4AAB416A27F3FB2F006DEFA6 /* subBannerCollectionViewCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subBannerCollectionViewCollectionViewCell.h; sourceTree = "<group>"; };
+		4AAB416B27F3FB2F006DEFA6 /* subBannerCollectionViewCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = subBannerCollectionViewCollectionViewCell.m; sourceTree = "<group>"; };
+		4AAB416E27F40642006DEFA6 /* songListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songListViewController.h; sourceTree = "<group>"; };
+		4AAB416F27F40642006DEFA6 /* songListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songListViewController.m; sourceTree = "<group>"; };
+		4AAB417127F40EE3006DEFA6 /* transViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = transViewController.h; sourceTree = "<group>"; };
+		4AAB417227F40EE3006DEFA6 /* transViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = transViewController.m; sourceTree = "<group>"; };
+		4AAB417927F47AB5006DEFA6 /* songList.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = songList.geojson; sourceTree = "<group>"; };
+		4AAB417C27F487A9006DEFA6 /* songListCoverCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songListCoverCollectionViewCell.h; sourceTree = "<group>"; };
+		4AAB417D27F487A9006DEFA6 /* songListCoverCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songListCoverCollectionViewCell.m; sourceTree = "<group>"; };
+		4AAB418027F487DB006DEFA6 /* songListSongCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songListSongCollectionViewCell.h; sourceTree = "<group>"; };
+		4AAB418127F487DB006DEFA6 /* songListSongCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songListSongCollectionViewCell.m; sourceTree = "<group>"; };
+		4AAB418427F4BF13006DEFA6 /* playAllCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = playAllCollectionViewCell.h; sourceTree = "<group>"; };
+		4AAB418527F4BF13006DEFA6 /* playAllCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = playAllCollectionViewCell.m; sourceTree = "<group>"; };
+		4AAB418827F55DCD006DEFA6 /* songCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songCellModel.h; sourceTree = "<group>"; };
+		4AAB418927F55DCD006DEFA6 /* songCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songCellModel.m; sourceTree = "<group>"; };
+		4AAB418B27F5876E006DEFA6 /* songPlayTransVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songPlayTransVC.h; sourceTree = "<group>"; };
+		4AAB418C27F5876E006DEFA6 /* songPlayTransVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songPlayTransVC.m; sourceTree = "<group>"; };
+		4AAB418F27F587F9006DEFA6 /* songPlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songPlayViewController.h; sourceTree = "<group>"; };
+		4AAB419027F587F9006DEFA6 /* songPlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songPlayViewController.m; sourceTree = "<group>"; };
+		4AB4D2B027E0F9620059C3D0 /* discoveryPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = discoveryPageViewController.h; sourceTree = "<group>"; };
+		4AB4D2B127E0F9620059C3D0 /* discoveryPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = discoveryPageViewController.m; sourceTree = "<group>"; };
+		4AB4D2B327E376CB0059C3D0 /* searchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = searchViewController.h; sourceTree = "<group>"; };
+		4AB4D2B427E376CB0059C3D0 /* searchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = searchViewController.m; sourceTree = "<group>"; };
+		4AB4D2D327EA30100059C3D0 /* functionCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = functionCollectionViewCell.h; sourceTree = "<group>"; };
+		4AB4D2D427EA30100059C3D0 /* functionCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = functionCollectionViewCell.m; sourceTree = "<group>"; };
+		4ABDE15927DF826C0073D96E /* NetEaseCloudMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetEaseCloudMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABDE15C27DF826C0073D96E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4ABDE15D27DF826C0073D96E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4ABDE15F27DF826C0073D96E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4ABDE16027DF826C0073D96E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4ABDE16227DF826C0073D96E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4ABDE16327DF826C0073D96E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4ABDE16627DF826C0073D96E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ABDE16827DF82700073D96E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ABDE16B27DF82700073D96E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4ABDE16D27DF82700073D96E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ABDE16E27DF82700073D96E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4ABDE17427DF82710073D96E /* NetEaseCloudMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetEaseCloudMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABDE17827DF82710073D96E /* NetEaseCloudMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetEaseCloudMusicTests.m; sourceTree = "<group>"; };
+		4ABDE17E27DF82710073D96E /* NetEaseCloudMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetEaseCloudMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABDE18227DF82710073D96E /* NetEaseCloudMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetEaseCloudMusicUITests.m; sourceTree = "<group>"; };
+		4ABDE18427DF82710073D96E /* NetEaseCloudMusicUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetEaseCloudMusicUITestsLaunchTests.m; sourceTree = "<group>"; };
+		578BC6A4B0A432676C6F7827 /* Pods-NetEaseCloudMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetEaseCloudMusic.release.xcconfig"; path = "Target Support Files/Pods-NetEaseCloudMusic/Pods-NetEaseCloudMusic.release.xcconfig"; sourceTree = "<group>"; };
+		6178F86D37161B07DBFF122C /* Pods-NetEaseCloudMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetEaseCloudMusic.debug.xcconfig"; path = "Target Support Files/Pods-NetEaseCloudMusic/Pods-NetEaseCloudMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		AFB0C2B4C889AA7AEDECB070 /* libPods-NetEaseCloudMusic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NetEaseCloudMusic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ABDE15627DF826C0073D96E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A970E9F50E882F3B20334311 /* libPods-NetEaseCloudMusic.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABDE17127DF82710073D96E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABDE17B27DF82710073D96E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AAB411E27EB7F14006DEFA6 /* bannerCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4AAB411F27EB7F3B006DEFA6 /* bannerCollectionViewCell.h */,
+				4AAB412027EB7F3B006DEFA6 /* bannerCollectionViewCell.m */,
+				4AAB416A27F3FB2F006DEFA6 /* subBannerCollectionViewCollectionViewCell.h */,
+				4AAB416B27F3FB2F006DEFA6 /* subBannerCollectionViewCollectionViewCell.m */,
+			);
+			path = bannerCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		4AAB412227ECCEDD006DEFA6 /* subFunctionCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4AAB412327ECCF05006DEFA6 /* subFunctionCollectionViewCell.h */,
+				4AAB412427ECCF05006DEFA6 /* subFunctionCollectionViewCell.m */,
+			);
+			path = subFunctionCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		4AAB412A27EF7615006DEFA6 /* carefullyChosenSongListCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4AAB412B27EF762D006DEFA6 /* carefullyChosenSongListCollectionViewCell.h */,
+				4AAB412C27EF762D006DEFA6 /* carefullyChosenSongListCollectionViewCell.m */,
+				4AAB412E27EF7838006DEFA6 /* carefullyChosenSongListTitleView.h */,
+				4AAB412F27EF7838006DEFA6 /* carefullyChosenSongListTitleView.m */,
+				4AAB413127EF7AE5006DEFA6 /* subSubCarefullyChosenSongListCollectionViewCell.h */,
+				4AAB413227EF7AE5006DEFA6 /* subSubCarefullyChosenSongListCollectionViewCell.m */,
+				4AAB413427F0C860006DEFA6 /* jingXuanSongListCollectionViewCell.h */,
+				4AAB413527F0C860006DEFA6 /* jingXuanSongListCollectionViewCell.m */,
+			);
+			path = carefullyChosenSongListCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		4AAB413727F19353006DEFA6 /* mininBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				4AAB413827F19393006DEFA6 /* miniBarVCViewController.h */,
+				4AAB413927F19393006DEFA6 /* miniBarVCViewController.m */,
+			);
+			path = mininBarVC;
+			sourceTree = "<group>";
+		};
+		4AAB413B27F1CEDF006DEFA6 /* recommendedSongListCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4AAB413C27F1CF1C006DEFA6 /* recommendedSongListCollectionViewCell.h */,
+				4AAB413D27F1CF1C006DEFA6 /* recommendedSongListCollectionViewCell.m */,
+				4AAB413F27F1CF63006DEFA6 /* recommendedSongListTitleView.h */,
+				4AAB414027F1CF63006DEFA6 /* recommendedSongListTitleView.m */,
+				4AAB414227F1CF97006DEFA6 /* subRecommendedSongListCollectionViewCell.h */,
+				4AAB414327F1CF97006DEFA6 /* subRecommendedSongListCollectionViewCell.m */,
+				4AAB417127F40EE3006DEFA6 /* transViewController.h */,
+				4AAB417227F40EE3006DEFA6 /* transViewController.m */,
+			);
+			path = recommendedSongListCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		4AAB414927F1F56B006DEFA6 /* discoveryPageSongListCellModel */ = {
+			isa = PBXGroup;
+			children = (
+				4AAB414A27F1F586006DEFA6 /* discoveryPageSongListCellModel.h */,
+				4AAB414B27F1F586006DEFA6 /* discoveryPageSongListCellModel.m */,
+			);
+			path = discoveryPageSongListCellModel;
+			sourceTree = "<group>";
+		};
+		4AAB415227F368B7006DEFA6 /* radarSongListCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4AAB415327F368F1006DEFA6 /* radarSongListCollectionViewCell.h */,
+				4AAB415427F368F1006DEFA6 /* radarSongListCollectionViewCell.m */,
+				4AAB415627F36961006DEFA6 /* radarSongListTitleView.h */,
+				4AAB415727F36961006DEFA6 /* radarSongListTitleView.m */,
+				4AAB415927F3698C006DEFA6 /* subRadarSongListCollectionViewCell.h */,
+				4AAB415A27F3698C006DEFA6 /* subRadarSongListCollectionViewCell.m */,
+			);
+			path = radarSongListCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		4AAB415C27F3F034006DEFA6 /* exclusiveSceneSongListCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4AAB415D27F3F05D006DEFA6 /* exclusiveSceneSongListCollectionViewCell.h */,
+				4AAB415E27F3F05D006DEFA6 /* exclusiveSceneSongListCollectionViewCell.m */,
+				4AAB416027F3F076006DEFA6 /* subExclusiveSceneSongListCollectionViewCell.h */,
+				4AAB416127F3F076006DEFA6 /* subExclusiveSceneSongListCollectionViewCell.m */,
+				4AAB416327F3F0A2006DEFA6 /* exclusiveSceneSongListTitleView.h */,
+				4AAB416427F3F0A2006DEFA6 /* exclusiveSceneSongListTitleView.m */,
+			);
+			path = exclusiveSceneSongListCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		4AAB416627F3F7A8006DEFA6 /* bannerModel */ = {
+			isa = PBXGroup;
+			children = (
+				4AAB416727F3F7C0006DEFA6 /* bannerModel.h */,
+				4AAB416827F3F7C0006DEFA6 /* bannerModel.m */,
+			);
+			path = bannerModel;
+			sourceTree = "<group>";
+		};
+		4AAB416D27F40627006DEFA6 /* songListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4AAB416E27F40642006DEFA6 /* songListViewController.h */,
+				4AAB416F27F40642006DEFA6 /* songListViewController.m */,
+			);
+			path = songListViewController;
+			sourceTree = "<group>";
+		};
+		4AAB417627F45907006DEFA6 /* searchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4AB4D2B327E376CB0059C3D0 /* searchViewController.h */,
+				4AB4D2B427E376CB0059C3D0 /* searchViewController.m */,
+			);
+			path = searchViewController;
+			sourceTree = "<group>";
+		};
+		4AAB417B27F4878A006DEFA6 /* songListCoverCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4AAB417C27F487A9006DEFA6 /* songListCoverCollectionViewCell.h */,
+				4AAB417D27F487A9006DEFA6 /* songListCoverCollectionViewCell.m */,
+			);
+			path = songListCoverCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		4AAB417F27F487CE006DEFA6 /* songListSongCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4A6C9BAA27F5D62F004CB9B8 /* huahai.mp3 */,
+				4AAB418027F487DB006DEFA6 /* songListSongCollectionViewCell.h */,
+				4AAB418127F487DB006DEFA6 /* songListSongCollectionViewCell.m */,
+				4AAB418B27F5876E006DEFA6 /* songPlayTransVC.h */,
+				4AAB418C27F5876E006DEFA6 /* songPlayTransVC.m */,
+			);
+			path = songListSongCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		4AAB418327F4BF00006DEFA6 /* playAllCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4AAB418427F4BF13006DEFA6 /* playAllCollectionViewCell.h */,
+				4AAB418527F4BF13006DEFA6 /* playAllCollectionViewCell.m */,
+			);
+			path = playAllCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		4AAB418727F55DB3006DEFA6 /* songCellModel */ = {
+			isa = PBXGroup;
+			children = (
+				4AAB418827F55DCD006DEFA6 /* songCellModel.h */,
+				4AAB418927F55DCD006DEFA6 /* songCellModel.m */,
+			);
+			path = songCellModel;
+			sourceTree = "<group>";
+		};
+		4AAB418E27F587E8006DEFA6 /* songPlayViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4AAB418F27F587F9006DEFA6 /* songPlayViewController.h */,
+				4AAB419027F587F9006DEFA6 /* songPlayViewController.m */,
+			);
+			path = songPlayViewController;
+			sourceTree = "<group>";
+		};
+		4AB4D2D227EA2FE20059C3D0 /* functionCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4AAB414527F1F4D2006DEFA6 /* home.json */,
+				4AB4D2D327EA30100059C3D0 /* functionCollectionViewCell.h */,
+				4AB4D2D427EA30100059C3D0 /* functionCollectionViewCell.m */,
+			);
+			path = functionCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		4ABDE15027DF826C0073D96E = {
+			isa = PBXGroup;
+			children = (
+				4ABDE15B27DF826C0073D96E /* NetEaseCloudMusic */,
+				4ABDE17727DF82710073D96E /* NetEaseCloudMusicTests */,
+				4ABDE18127DF82710073D96E /* NetEaseCloudMusicUITests */,
+				4ABDE15A27DF826C0073D96E /* Products */,
+				78AABF673A25D9937CBE1E9D /* Pods */,
+				F55275417C79D20256B28256 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4ABDE15A27DF826C0073D96E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ABDE15927DF826C0073D96E /* NetEaseCloudMusic.app */,
+				4ABDE17427DF82710073D96E /* NetEaseCloudMusicTests.xctest */,
+				4ABDE17E27DF82710073D96E /* NetEaseCloudMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ABDE15B27DF826C0073D96E /* NetEaseCloudMusic */ = {
+			isa = PBXGroup;
+			children = (
+				4AAB418E27F587E8006DEFA6 /* songPlayViewController */,
+				4AAB418727F55DB3006DEFA6 /* songCellModel */,
+				4AAB418327F4BF00006DEFA6 /* playAllCollectionViewCell */,
+				4AAB417F27F487CE006DEFA6 /* songListSongCollectionViewCell */,
+				4AAB417B27F4878A006DEFA6 /* songListCoverCollectionViewCell */,
+				4AAB417627F45907006DEFA6 /* searchViewController */,
+				4AAB416D27F40627006DEFA6 /* songListViewController */,
+				4AAB416627F3F7A8006DEFA6 /* bannerModel */,
+				4AAB415C27F3F034006DEFA6 /* exclusiveSceneSongListCollectionViewCell */,
+				4AAB415227F368B7006DEFA6 /* radarSongListCollectionViewCell */,
+				4AAB414927F1F56B006DEFA6 /* discoveryPageSongListCellModel */,
+				4AAB413B27F1CEDF006DEFA6 /* recommendedSongListCollectionViewCell */,
+				4AAB413727F19353006DEFA6 /* mininBarVC */,
+				4AAB412A27EF7615006DEFA6 /* carefullyChosenSongListCollectionViewCell */,
+				4AAB412227ECCEDD006DEFA6 /* subFunctionCollectionViewCell */,
+				4AAB411E27EB7F14006DEFA6 /* bannerCollectionViewCell */,
+				4AB4D2D227EA2FE20059C3D0 /* functionCollectionViewCell */,
+				4ABDE15C27DF826C0073D96E /* AppDelegate.h */,
+				4ABDE15D27DF826C0073D96E /* AppDelegate.m */,
+				4ABDE15F27DF826C0073D96E /* SceneDelegate.h */,
+				4ABDE16027DF826C0073D96E /* SceneDelegate.m */,
+				4ABDE16227DF826C0073D96E /* ViewController.h */,
+				4ABDE16327DF826C0073D96E /* ViewController.m */,
+				4ABDE16527DF826C0073D96E /* Main.storyboard */,
+				4ABDE16827DF82700073D96E /* Assets.xcassets */,
+				4ABDE16A27DF82700073D96E /* LaunchScreen.storyboard */,
+				4ABDE16D27DF82700073D96E /* Info.plist */,
+				4ABDE16E27DF82700073D96E /* main.m */,
+				4AB4D2B027E0F9620059C3D0 /* discoveryPageViewController.h */,
+				4AB4D2B127E0F9620059C3D0 /* discoveryPageViewController.m */,
+				4AAB414D27F21A4E006DEFA6 /* home .geojson */,
+				4AAB414F27F2F114006DEFA6 /* helpDownLoad.h */,
+				4AAB415027F2F114006DEFA6 /* helpDownLoad.m */,
+				4AAB417927F47AB5006DEFA6 /* songList.geojson */,
+			);
+			path = NetEaseCloudMusic;
+			sourceTree = "<group>";
+		};
+		4ABDE17727DF82710073D96E /* NetEaseCloudMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				4ABDE17827DF82710073D96E /* NetEaseCloudMusicTests.m */,
+			);
+			path = NetEaseCloudMusicTests;
+			sourceTree = "<group>";
+		};
+		4ABDE18127DF82710073D96E /* NetEaseCloudMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4ABDE18227DF82710073D96E /* NetEaseCloudMusicUITests.m */,
+				4ABDE18427DF82710073D96E /* NetEaseCloudMusicUITestsLaunchTests.m */,
+			);
+			path = NetEaseCloudMusicUITests;
+			sourceTree = "<group>";
+		};
+		78AABF673A25D9937CBE1E9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6178F86D37161B07DBFF122C /* Pods-NetEaseCloudMusic.debug.xcconfig */,
+				578BC6A4B0A432676C6F7827 /* Pods-NetEaseCloudMusic.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F55275417C79D20256B28256 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFB0C2B4C889AA7AEDECB070 /* libPods-NetEaseCloudMusic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ABDE15827DF826C0073D96E /* NetEaseCloudMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ABDE18827DF82710073D96E /* Build configuration list for PBXNativeTarget "NetEaseCloudMusic" */;
+			buildPhases = (
+				A794C8FAF05E9F5EBC98805B /* [CP] Check Pods Manifest.lock */,
+				4ABDE15527DF826C0073D96E /* Sources */,
+				4ABDE15627DF826C0073D96E /* Frameworks */,
+				4ABDE15727DF826C0073D96E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetEaseCloudMusic;
+			productName = NetEaseCloudMusic;
+			productReference = 4ABDE15927DF826C0073D96E /* NetEaseCloudMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ABDE17327DF82710073D96E /* NetEaseCloudMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ABDE18B27DF82710073D96E /* Build configuration list for PBXNativeTarget "NetEaseCloudMusicTests" */;
+			buildPhases = (
+				4ABDE17027DF82710073D96E /* Sources */,
+				4ABDE17127DF82710073D96E /* Frameworks */,
+				4ABDE17227DF82710073D96E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ABDE17627DF82710073D96E /* PBXTargetDependency */,
+			);
+			name = NetEaseCloudMusicTests;
+			productName = NetEaseCloudMusicTests;
+			productReference = 4ABDE17427DF82710073D96E /* NetEaseCloudMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4ABDE17D27DF82710073D96E /* NetEaseCloudMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ABDE18E27DF82710073D96E /* Build configuration list for PBXNativeTarget "NetEaseCloudMusicUITests" */;
+			buildPhases = (
+				4ABDE17A27DF82710073D96E /* Sources */,
+				4ABDE17B27DF82710073D96E /* Frameworks */,
+				4ABDE17C27DF82710073D96E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ABDE18027DF82710073D96E /* PBXTargetDependency */,
+			);
+			name = NetEaseCloudMusicUITests;
+			productName = NetEaseCloudMusicUITests;
+			productReference = 4ABDE17E27DF82710073D96E /* NetEaseCloudMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ABDE15127DF826C0073D96E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4ABDE15827DF826C0073D96E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					4ABDE17327DF82710073D96E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4ABDE15827DF826C0073D96E;
+					};
+					4ABDE17D27DF82710073D96E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4ABDE15827DF826C0073D96E;
+					};
+				};
+			};
+			buildConfigurationList = 4ABDE15427DF826C0073D96E /* Build configuration list for PBXProject "NetEaseCloudMusic" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ABDE15027DF826C0073D96E;
+			productRefGroup = 4ABDE15A27DF826C0073D96E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ABDE15827DF826C0073D96E /* NetEaseCloudMusic */,
+				4ABDE17327DF82710073D96E /* NetEaseCloudMusicTests */,
+				4ABDE17D27DF82710073D96E /* NetEaseCloudMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ABDE15727DF826C0073D96E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABDE16C27DF82700073D96E /* LaunchScreen.storyboard in Resources */,
+				4ABDE16927DF82700073D96E /* Assets.xcassets in Resources */,
+				4AAB414627F1F4D2006DEFA6 /* home.json in Resources */,
+				4A6C9BAB27F5D62F004CB9B8 /* huahai.mp3 in Resources */,
+				4ABDE16727DF826C0073D96E /* Main.storyboard in Resources */,
+				4AAB417A27F47AB5006DEFA6 /* songList.geojson in Resources */,
+				4AAB414E27F21A4E006DEFA6 /* home .geojson in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABDE17227DF82710073D96E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABDE17C27DF82710073D96E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A794C8FAF05E9F5EBC98805B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetEaseCloudMusic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ABDE15527DF826C0073D96E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AAB413A27F19393006DEFA6 /* miniBarVCViewController.m in Sources */,
+				4ABDE16427DF826C0073D96E /* ViewController.m in Sources */,
+				4AAB415F27F3F05D006DEFA6 /* exclusiveSceneSongListCollectionViewCell.m in Sources */,
+				4ABDE15E27DF826C0073D96E /* AppDelegate.m in Sources */,
+				4AAB413627F0C860006DEFA6 /* jingXuanSongListCollectionViewCell.m in Sources */,
+				4AAB412127EB7F3B006DEFA6 /* bannerCollectionViewCell.m in Sources */,
+				4AAB415127F2F114006DEFA6 /* helpDownLoad.m in Sources */,
+				4AAB414C27F1F586006DEFA6 /* discoveryPageSongListCellModel.m in Sources */,
+				4AAB415827F36961006DEFA6 /* radarSongListTitleView.m in Sources */,
+				4AAB417027F40642006DEFA6 /* songListViewController.m in Sources */,
+				4AAB412D27EF762D006DEFA6 /* carefullyChosenSongListCollectionViewCell.m in Sources */,
+				4AAB417327F40EE3006DEFA6 /* transViewController.m in Sources */,
+				4AAB418627F4BF13006DEFA6 /* playAllCollectionViewCell.m in Sources */,
+				4AAB419127F587F9006DEFA6 /* songPlayViewController.m in Sources */,
+				4AAB412527ECCF05006DEFA6 /* subFunctionCollectionViewCell.m in Sources */,
+				4AB4D2B527E376CB0059C3D0 /* searchViewController.m in Sources */,
+				4AB4D2B227E0F9620059C3D0 /* discoveryPageViewController.m in Sources */,
+				4AAB414427F1CF97006DEFA6 /* subRecommendedSongListCollectionViewCell.m in Sources */,
+				4AAB418227F487DB006DEFA6 /* songListSongCollectionViewCell.m in Sources */,
+				4AAB416527F3F0A2006DEFA6 /* exclusiveSceneSongListTitleView.m in Sources */,
+				4AAB415527F368F1006DEFA6 /* radarSongListCollectionViewCell.m in Sources */,
+				4AAB413327EF7AE5006DEFA6 /* subSubCarefullyChosenSongListCollectionViewCell.m in Sources */,
+				4AAB418A27F55DCD006DEFA6 /* songCellModel.m in Sources */,
+				4AAB418D27F5876E006DEFA6 /* songPlayTransVC.m in Sources */,
+				4AAB415B27F3698C006DEFA6 /* subRadarSongListCollectionViewCell.m in Sources */,
+				4AAB414127F1CF63006DEFA6 /* recommendedSongListTitleView.m in Sources */,
+				4AAB416227F3F076006DEFA6 /* subExclusiveSceneSongListCollectionViewCell.m in Sources */,
+				4AAB416C27F3FB2F006DEFA6 /* subBannerCollectionViewCollectionViewCell.m in Sources */,
+				4AAB413027EF7838006DEFA6 /* carefullyChosenSongListTitleView.m in Sources */,
+				4ABDE16F27DF82700073D96E /* main.m in Sources */,
+				4ABDE16127DF826C0073D96E /* SceneDelegate.m in Sources */,
+				4AAB416927F3F7C0006DEFA6 /* bannerModel.m in Sources */,
+				4AAB417E27F487A9006DEFA6 /* songListCoverCollectionViewCell.m in Sources */,
+				4AB4D2D527EA30100059C3D0 /* functionCollectionViewCell.m in Sources */,
+				4AAB413E27F1CF1C006DEFA6 /* recommendedSongListCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABDE17027DF82710073D96E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABDE17927DF82710073D96E /* NetEaseCloudMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABDE17A27DF82710073D96E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABDE18527DF82710073D96E /* NetEaseCloudMusicUITestsLaunchTests.m in Sources */,
+				4ABDE18327DF82710073D96E /* NetEaseCloudMusicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ABDE17627DF82710073D96E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ABDE15827DF826C0073D96E /* NetEaseCloudMusic */;
+			targetProxy = 4ABDE17527DF82710073D96E /* PBXContainerItemProxy */;
+		};
+		4ABDE18027DF82710073D96E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ABDE15827DF826C0073D96E /* NetEaseCloudMusic */;
+			targetProxy = 4ABDE17F27DF82710073D96E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4ABDE16527DF826C0073D96E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ABDE16627DF826C0073D96E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4ABDE16A27DF82700073D96E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ABDE16B27DF82700073D96E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ABDE18627DF82710073D96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4ABDE18727DF82710073D96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ABDE18927DF82710073D96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6178F86D37161B07DBFF122C /* Pods-NetEaseCloudMusic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetEaseCloudMusic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wen.NetEaseCloudMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ABDE18A27DF82710073D96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 578BC6A4B0A432676C6F7827 /* Pods-NetEaseCloudMusic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetEaseCloudMusic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wen.NetEaseCloudMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4ABDE18C27DF82710073D96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wen.NetEaseCloudMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetEaseCloudMusic.app/NetEaseCloudMusic";
+			};
+			name = Debug;
+		};
+		4ABDE18D27DF82710073D96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wen.NetEaseCloudMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetEaseCloudMusic.app/NetEaseCloudMusic";
+			};
+			name = Release;
+		};
+		4ABDE18F27DF82710073D96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wen.NetEaseCloudMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetEaseCloudMusic;
+			};
+			name = Debug;
+		};
+		4ABDE19027DF82710073D96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wen.NetEaseCloudMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetEaseCloudMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ABDE15427DF826C0073D96E /* Build configuration list for PBXProject "NetEaseCloudMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABDE18627DF82710073D96E /* Debug */,
+				4ABDE18727DF82710073D96E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ABDE18827DF82710073D96E /* Build configuration list for PBXNativeTarget "NetEaseCloudMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABDE18927DF82710073D96E /* Debug */,
+				4ABDE18A27DF82710073D96E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ABDE18B27DF82710073D96E /* Build configuration list for PBXNativeTarget "NetEaseCloudMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABDE18C27DF82710073D96E /* Debug */,
+				4ABDE18D27DF82710073D96E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ABDE18E27DF82710073D96E /* Build configuration list for PBXNativeTarget "NetEaseCloudMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABDE18F27DF82710073D96E /* Debug */,
+				4ABDE19027DF82710073D96E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ABDE15127DF826C0073D96E /* Project object */;
+}
